@@ -32,7 +32,7 @@ clf = create_predictor(new_model)
 
 def predict_sentiment(text):
   p = clf(text)
-  if p > 0.5 :
+  if p < 0.5 :
     sentiment = "Positive"
     face = ":slightly_smiling_face:"
   else: 
