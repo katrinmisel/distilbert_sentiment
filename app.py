@@ -39,7 +39,7 @@ def predict_sentiment(text):
     sentiment = "Negative"
     face = ":slightly_frowning_face:"
   
-  return sentiment
+  return sentiment, face
   
 
 ###### set up streamlit
